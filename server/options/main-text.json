@@ -1,0 +1,48 @@
+{
+	"DopText": "Сервер Minecraft",
+	"TopText":"Официальный магазин сервера AstroMine",
+	"MainText":"Здесь вы можете купить все, что только продается у нас на сервере. Начиная с игровых предметов заканчивая привилегиями и кейсами",
+	"IP":"mc.hypixel.net",
+	"ServerName": "AstroMine",
+"Header":{
+	"nav": [
+		{
+			"title": "Главная",
+			"url": "https://vk.com/"
+		},
+		{
+			"title": "Играть",
+			"url": "https://vk.com/"
+		},
+		{
+			"title": "Правила",
+			"url": "https://vk.com/"
+		},
+		{
+			"title": "Магазин",
+			"url": "https://vk.com/"
+		}
+	]
+},
+"Footer":{
+	"copyright":{
+		"title":"Copyright © 2023 AstroMine. Все права защищены.",
+		"des":"AstroMine не связан с MojangAB. Все средства идут на развитие проекта. Коммерческая деятельность проектасоответствует политике Mojang AB."
+	},
+	"links":[
+		{
+			"title":"Страницы",
+			"des":[
+				{
+					"title":"Вконтакте",
+					"url":"https://vk.com"
+				},
+				{
+					"title":"Discord",
+					"url":"https://Discord.com"
+				}
+			]
+		}
+	]
+}
+}

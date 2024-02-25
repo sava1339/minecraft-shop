@@ -1,0 +1,140 @@
+@media (max-width: 1364px) {
+    .buyings{
+        display:flex;
+    }
+}
+@media (max-width: 1400px) and (min-width: 1160px) {
+    .products{
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+    }
+}
+@media (max-width: 1160px) and (min-width: 920px){
+    .products{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+@media (max-width: 1160px){
+    .nav{
+        flex-direction: column;
+    }
+}
+@media (max-width: 920px){
+    .products{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+    .basket{
+        flex-direction: column;
+        align-items: center;
+        min-height: 900px;
+    }
+    .basket-top,.basket-bottom{
+        margin-top: 1rem;
+        width: 95vw;
+    }
+    .basket-bottom{
+        overflow-y: scroll;
+    }
+    .basket .product-list{
+        max-height: 128px;
+    }
+}
+@media (max-width: 772px){
+    .product-info{
+        min-width: 700px !important;
+    }
+    .main{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .main-top,.main-bottom{
+        width: 95%;
+    }
+    .main-top{
+        margin-top: 3rem;
+    }
+    .main-bottom{
+        margin-top: 20rem;
+    }
+    .button-basket{
+        width: 32px;
+        height: 32px;
+    }
+    .main-text-top,.main-text-bottom{
+        width: 70%;
+    }
+    .button-basket-count{
+        padding-top: 0.1rem;
+        font-size: 11px;
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .basket-item-value,.basket-item-price{
+        font-size: 12px;
+    }
+    .basket-item-name{
+        font-size: 18px;
+    }
+    .main-text-center{
+        width: 90%;
+    }
+    .header-logo{
+        height: 32px;
+    }
+    .footer-item{
+        width: 100%;
+    }
+    .nav p{
+        font-size: 14px;
+    }
+    .ip,.players-count{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .basket-top{
+        width: 95vw;
+    }
+    .basket-bottom{
+        width: 95vw;
+    }
+    .basket-cancel{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .basket{
+        width: 95vw;
+        align-items: center;
+        min-height: 95vh !important;
+    }
+    .ip{
+        padding: 0.5rem 1rem;
+    }
+    .players-count{
+        padding: 0.5rem;
+    }
+    .product-info-info{
+        flex-wrap: wrap;
+    }
+    .product-info-image{
+        width: 128px;
+    }
+}
+@media (max-width: 500px){
+    .product-info{
+        min-width: 450px !important;
+    }
+    .basket-item-content{
+        flex-direction: column;
+    }
+    .product-info-content{
+        flex-direction: column-reverse;
+    }
+    .product-info-image,.product-info-text{
+        padding-left: 0;
+    }
+    .header-logo{
+        height: 24px;
+    }
+    .nav p{
+        font-size: 9px !important;
+    }
+}
